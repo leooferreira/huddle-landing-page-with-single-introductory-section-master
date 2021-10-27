@@ -108,3 +108,29 @@ body {
 .social a i:hover::after {
     border-color: hsl(300, 69%, 71%);
 }
+
+@media only screen and (max-width: 1440px) {
+    .hero-img img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 26px;
+    }
+
+    .social {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .hero-text a {
+        padding: 10px 70px;
+    }
+}
